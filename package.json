@@ -1,0 +1,19 @@
+{
+	"name": "romcal-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx functions-framework --target=romcal_api --signature-type=http"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@google-cloud/functions-framework": "^2.1.1",
+		"@romcal/calendar.general-roman": "^3.0.0-dev.10",
+		"romcal": "^3.0.0-dev.10"
+	}
+}
